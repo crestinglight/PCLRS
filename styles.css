@@ -1,0 +1,104 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+	margin: 0;
+	background-color: #dadada;
+}
+
+.header {
+	background-color: #424242;
+	width: 100%;
+	text-align: right;
+}
+
+.headerLinks {
+	padding-right: 10px;
+}
+
+.headerLinks a {
+	display: inline-block;
+	color: white;
+	font-size: 1em;
+	text-decoration: none;
+	padding: 10px 10px 12px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+.headerLinks a:hover {
+	color: #f5ad05
+}
+
+.heroImg {
+	display: flex;
+	height: 550px;
+	background: -webkit-radial-gradient(at top left 50%, #f5ad05 10%, #f94f6c);
+	background: -o-radial-gradient(at top left 50%, #f5ad05 10%, #f94f6c);
+	background: -moz-radial-gradient(at top left 50%, #f5ad05 10%, #f94f6c);
+	background: radial-gradient(at top left 50%, #f5ad05 10%, #f94f6c);
+
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 3px;
+	font-size: 5em;
+	font-weight: 500;
+	justify-content: center;
+	align-items: center;
+}
+
+.heroText {
+	position: relative;
+	top: -10px;
+	text-align: center;
+}
+
+.bodyContent {
+	padding: 40px 50px;
+}
+
+.columns {
+	display: flex;
+	flex-direction: row;
+}
+
+h1 {
+	color: #424242;
+	font-family: 'Oswald', sans-serif;
+	border-bottom: solid 3px #f5ad05;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin-bottom: 1em;
+}
+
+.centerH1 {
+	display: block;
+	max-width: 50%;
+}
+
+.columnLeft {
+	width: 50%;
+	padding-right: 20px;
+}
+
+.columnRight {
+	width: 50%;
+	padding-left: 20px;
+}
+
+p {
+	color: #424242;
+	font-family: 'EB Garamond', serif;
+	font-size: 1.1em;
+}
+
+
+
+
+
