@@ -7,7 +7,13 @@ html {
 
 html, body {
 	margin: 0;
+	padding: 0;
 	background-color: #dadada;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
 }
 
 .header {
@@ -34,7 +40,7 @@ html, body {
 }
 
 .headerLinks a:hover {
-	color: #f5ad05
+	color: #f5ad05;
 }
 
 .heroImg {
@@ -61,7 +67,7 @@ html, body {
 }
 
 .bodyContent {
-	padding: 40px 50px;
+	padding: 40px 70px;
 }
 
 .columns {
@@ -76,6 +82,18 @@ h1 {
 	text-transform: uppercase;
 	font-weight: 300;
 	margin-bottom: 1em;
+}
+
+h2 {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	color: #424242;
+	font-family: 'EB Garamond', serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.2em;
+	margin-left: 10px;
+	margin-bottom: 0.5em;
 }
 
 .centerH1 {
@@ -96,17 +114,45 @@ h1 {
 p {
 	color: #424242;
 	font-family: 'EB Garamond', serif;
-	font-size: 1.1em;
+	font-size: 1.2em;
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+
+.topP {
+	margin-bottom: 20px;
 }
 
 .footer {
 	background-color: #424242;
-	color: white;
+	width: 100%;
 	text-align: center;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 300;
-	padding: 12px 0px 14px;
 }
 
+.footerLinks {
+	padding-right: 10px;
+}
 
+.footerLinks a {
+	display: inline-block;
+	color: white;
+	font-size: 0.8em;
+	text-decoration: none;
+	padding: 12px 10px 14px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	letter-spacing: 1px;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.footerLinks a:hover {
+	color: #f94f6c;
+}
+
+.footerLinks span {
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	padding-bottom: 10px;
+}
 
